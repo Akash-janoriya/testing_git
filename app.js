@@ -54,7 +54,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
     })
 
-    // request.write(jsonData);
+    request.write(jsonData);
     request.end();
   })
 
@@ -63,7 +63,7 @@ app.use(bodyParser.urlencoded({extended: true}));
   })
 
     app.listen(process.env.PORT || 3000, function (){
-      console.log("server is runningon port 3000");
+      console.log("server is running on port 3000");
     });
 
     // api key
