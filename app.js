@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
     const options ={
       method:"post",
-      auth:"akash8:2214e860d3a38a9d8696a1d59c9a0ced-us7"
+      auth:
     }
 
     const request = https.request(url, options, function(response){
@@ -66,8 +66,3 @@ app.use(bodyParser.urlencoded({extended: true}));
       console.log("server is running on port 3000");
     });
 
-    // api key
-// 2214e860d3a38a9d8696a1d59c9a0ced-us7
-
-// list idea
-// 50e7167733
